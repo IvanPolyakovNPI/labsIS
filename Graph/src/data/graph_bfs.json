@@ -1,0 +1,224 @@
+{
+  "start" : "A",
+  "goal" : "L",
+  "type" : "graph",
+  "method" : "bfs",
+  "knots" : [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N"
+  ],
+  "connections" : [
+    {
+      "connectionKnots" : ["A","B"],
+      "weight" : 3
+    },
+    {
+      "connectionKnots" : ["B","A"],
+      "weight" : 3
+    },
+    {
+      "connectionKnots" : ["A","C"],
+      "weight" : 5
+    },
+    {
+      "connectionKnots" : ["C","A"],
+      "weight" : 5
+    },
+    {
+      "connectionKnots" : ["A","D"],
+      "weight" : 4
+    },
+    {
+      "connectionKnots" : ["D","A"],
+      "weight" : 4
+    },
+    {
+      "connectionKnots" : ["E","B"],
+      "weight" : 5
+    },
+    {
+      "connectionKnots" : ["B","E"],
+      "weight" : 5
+    },
+    {
+      "connectionKnots" : ["F","C"],
+      "weight" : 3
+    },
+    {
+      "connectionKnots" : ["C","F"],
+      "weight" : 3
+    },
+    {
+      "connectionKnots" : ["F","D"],
+      "weight" : 4
+    },
+    {
+      "connectionKnots" : ["D","F"],
+      "weight" : 4
+    },
+    {
+      "connectionKnots" : ["D","E"],
+      "weight" : 3
+    },
+    {
+      "connectionKnots" : ["E","D"],
+      "weight" : 3
+    },
+    {
+      "connectionKnots" : ["G","D"],
+      "weight" : 6
+    },
+    {
+      "connectionKnots" : ["D","G"],
+      "weight" : 6
+    },
+    {
+      "connectionKnots" : ["G","E"],
+      "weight" : 4
+    },
+    {
+      "connectionKnots" : ["E","G"],
+      "weight" : 4
+    },
+    {
+      "connectionKnots" : ["J","E"],
+      "weight" : 7
+    },
+    {
+      "connectionKnots" : ["E","J"],
+      "weight" : 7
+    },
+    {
+      "connectionKnots" : ["G","F"],
+      "weight" : 5
+    },
+    {
+      "connectionKnots" : ["F","G"],
+      "weight" : 5
+    },
+    {
+      "connectionKnots" : ["F","H"],
+      "weight" : 6
+    },
+    {
+      "connectionKnots" : ["H","F"],
+      "weight" : 6
+    },
+    {
+      "connectionKnots" : ["H","G"],
+      "weight" : 7
+    },
+    {
+      "connectionKnots" : ["G","H"],
+      "weight" : 7
+    },
+    {
+      "connectionKnots" : ["J","G"],
+      "weight" : 4
+    },
+    {
+      "connectionKnots" : ["G","J"],
+      "weight" : 4
+    },
+    {
+      "connectionKnots" : ["I","H"],
+      "weight" : 4
+    },
+    {
+      "connectionKnots" : ["H","I"],
+      "weight" : 4
+    },
+    {
+      "connectionKnots" : ["K","I"],
+      "weight" : 8
+    },
+    {
+      "connectionKnots" : ["I","K"],
+      "weight" : 8
+    },
+    {
+      "connectionKnots" : ["L","I"],
+      "weight" : 4
+    },
+    {
+      "connectionKnots" : ["I","L"],
+      "weight" : 4
+    },
+    {
+      "connectionKnots" : ["J","K"],
+      "weight" : 6
+    },
+    {
+      "connectionKnots" : ["K","J"],
+      "weight" : 6
+    },
+    {
+      "connectionKnots" : ["N","J"],
+      "weight" : 5
+    },
+    {
+      "connectionKnots" : ["J","N"],
+      "weight" : 5
+    },
+    {
+      "connectionKnots" : ["L","K"],
+      "weight" : 2
+    },
+    {
+      "connectionKnots" : ["K","L"],
+      "weight" : 2
+    },
+    {
+      "connectionKnots" : ["M","K"],
+      "weight" : 3
+    },
+    {
+      "connectionKnots" : ["K","M"],
+      "weight" : 3
+    },
+    {
+      "connectionKnots" : ["N","K"],
+      "weight" : 3
+    },
+    {
+      "connectionKnots" : ["K","N"],
+      "weight" : 3
+    },
+    {
+      "connectionKnots" : ["M","L"],
+      "weight" : 4
+    },
+    {
+      "connectionKnots" : ["L","M"],
+      "weight" : 4
+    },
+    {
+      "connectionKnots" : ["N","M"],
+      "weight" : 4
+    },
+    {
+      "connectionKnots" : ["M","N"],
+      "weight" : 4
+    }
+
+  ]
+
+
+
+
+
+
+
+}
