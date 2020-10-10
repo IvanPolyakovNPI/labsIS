@@ -1,0 +1,89 @@
+{
+  "knots" : [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K"
+  ],
+  "connections" : [
+    {
+      "connectionKnots" : ["A","B"],
+      "weight" : 10
+    },
+    {
+      "connectionKnots" : ["B","C"],
+      "weight" : 2
+    },
+    {
+      "connectionKnots" : ["C","D"],
+      "weight" : 8
+    },
+    {
+      "connectionKnots" : ["E","D"],
+      "weight" : 9
+    },
+    {
+      "connectionKnots" : ["A","G"],
+      "weight" : 3
+    },
+    {
+      "connectionKnots" : ["A","H"],
+      "weight" : 1
+    },
+    {
+      "connectionKnots" : ["B","H"],
+      "weight" : 5
+    },
+    {
+      "connectionKnots" : ["B","F"],
+      "weight" : 7
+    },
+    {
+      "connectionKnots" : ["C","F"],
+      "weight" : 4
+    },
+    {
+      "connectionKnots" : ["D","F"],
+      "weight" : 8
+    },
+    {
+      "connectionKnots" : ["K","E"],
+      "weight" : 4
+    },
+    {
+      "connectionKnots" : ["H","F"],
+      "weight" : 7
+    },
+    {
+      "connectionKnots" : ["F","I"],
+      "weight" : 8
+    },
+    {
+      "connectionKnots" : ["F","K"],
+      "weight" : 9
+    },
+    {
+      "connectionKnots" : ["H","G"],
+      "weight" : 6
+    },
+    {
+      "connectionKnots" : ["I","H"],
+      "weight" : 3
+    },
+    {
+      "connectionKnots" : ["J","I"],
+      "weight" : 6
+    },
+    {
+      "connectionKnots" : ["J","K"],
+      "weight" : 2
+    }
+  ]
+}
