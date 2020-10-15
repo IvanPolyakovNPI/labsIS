@@ -83,6 +83,7 @@ public class Main {
                 stop++;
             }else {
                 Matrix m = parseMatrix(p);
+                m.printMatrix();
                 m.foundClass(cores);
             }
         }
